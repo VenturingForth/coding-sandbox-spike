@@ -112,3 +112,16 @@ module.exports = {
 // can define types for each piece of data. You can also give data
 // access modifiers (public, private, readonly and protected - all
 // types default to public if not explicit).
+
+// Type aliases and interfaces are mostly interchangable, except that
+// type aliases are closed once defined, interfaces are extendable.
+// A TYPE CANNOT BE CHANGED ONCE DEFINED!   
+
+// DOCS SUGGEST USING INTERFACES OVER TYPES AND CLASSES:
+// - Classes will get compiled down to JS and add unnecessary bloat.
+// - Types should only be used when you need to use the features of 
+//   that type
+
+// COOL FEATURES YOU SHOULD READ ABOUT:
+// - Literal Types
+// - Generics
